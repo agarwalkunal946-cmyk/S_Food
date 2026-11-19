@@ -2,6 +2,13 @@
 
 A responsive, food-first ecommerce template built with Next.js (JavaScript/JSX), MongoDB, and an admin studio. Start with a restaurant, takeaway, café, bakery, grocery shop, or meal-prep kitchen template, then edit the storefront, menu, ingredients, dietary labels, prices, photos, and delivery settings from the admin panel.
 
+## Clone this project
+
+```sh
+git clone https://github.com/agarwalkunal946-cmyk/S_Food.git
+cd S_Food
+```
+
 ## Run locally
 
 Requirements: Node.js 20.9 or newer, npm, and Docker Desktop (or a reachable MongoDB Atlas database).

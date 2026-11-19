@@ -1,0 +1,113 @@
+.theme-root[data-store-type="food"],
+.theme-root[data-store-type="cafe"],
+.theme-root[data-store-type="bakery"],
+.theme-root[data-store-type="mealprep"],
+.theme-root[data-store-type="grocery"] {
+  --ink: #382920;
+  --muted: #8b776a;
+  --line: #eaded3;
+  --cream: #f7eee3;
+}
+
+.login-image {
+  background-color: #613c2e;
+  background-image: url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1500&q=88");
+}
+
+.login-image-wash {
+  background: linear-gradient(0deg, rgb(39 24 18 / 65%), rgb(39 24 18 / 8%) 75%), linear-gradient(90deg, rgb(39 24 18 / 30%), transparent);
+}
+
+.theme-root[data-store-type="food"] .announcement,
+.theme-root[data-store-type="cafe"] .announcement,
+.theme-root[data-store-type="bakery"] .announcement,
+.theme-root[data-store-type="mealprep"] .announcement,
+.theme-root[data-store-type="grocery"] .announcement {
+  color: #fff9f1;
+  background: var(--brand-primary, #71351f);
+  letter-spacing: .065em;
+}
+
+.theme-root[data-store-type="food"] .hero-wash,
+.theme-root[data-store-type="cafe"] .hero-wash,
+.theme-root[data-store-type="bakery"] .hero-wash,
+.theme-root[data-store-type="mealprep"] .hero-wash,
+.theme-root[data-store-type="grocery"] .hero-wash {
+  background: linear-gradient(90deg, rgb(32 21 17 / 62%), rgb(36 24 18 / 27%) 58%, rgb(36 24 18 / 6%)), linear-gradient(0deg, rgb(28 20 15 / 34%), transparent 42%);
+}
+
+.theme-root[data-store-type="food"] .product-photo-wrap,
+.theme-root[data-store-type="food"] .category-tile,
+.theme-root[data-store-type="cafe"] .product-photo-wrap,
+.theme-root[data-store-type="cafe"] .category-tile,
+.theme-root[data-store-type="bakery"] .product-photo-wrap,
+.theme-root[data-store-type="bakery"] .category-tile,
+.theme-root[data-store-type="mealprep"] .product-photo-wrap,
+.theme-root[data-store-type="mealprep"] .category-tile,
+.theme-root[data-store-type="grocery"] .product-photo-wrap,
+.theme-root[data-store-type="grocery"] .category-tile {
+  border-radius: 13px;
+}
+
+.theme-root[data-store-type="food"] .product-card-meta,
+.theme-root[data-store-type="cafe"] .product-card-meta,
+.theme-root[data-store-type="bakery"] .product-card-meta,
+.theme-root[data-store-type="mealprep"] .product-card-meta,
+.theme-root[data-store-type="grocery"] .product-card-meta {
+  color: var(--ink);
+}
+
+.theme-root[data-store-type="food"] .product-badge,
+.theme-root[data-store-type="cafe"] .product-badge,
+.theme-root[data-store-type="bakery"] .product-badge,
+.theme-root[data-store-type="mealprep"] .product-badge,
+.theme-root[data-store-type="grocery"] .product-badge {
+  border: 1px solid rgb(255 255 255 / 56%);
+  border-radius: 99px;
+  background: #fff8efed;
+  color: var(--brand-primary, #71351f);
+}
+
+.theme-root[data-store-type="food"] .newsletter,
+.theme-root[data-store-type="cafe"] .newsletter,
+.theme-root[data-store-type="bakery"] .newsletter,
+.theme-root[data-store-type="mealprep"] .newsletter,
+.theme-root[data-store-type="grocery"] .newsletter {
+  background: var(--brand-primary, #71351f);
+}
+
+.theme-root[data-store-type="food"] .story-photo,
+.theme-root[data-store-type="cafe"] .story-photo,
+.theme-root[data-store-type="bakery"] .story-photo,
+.theme-root[data-store-type="mealprep"] .story-photo,
+.theme-root[data-store-type="grocery"] .story-photo {
+  border-radius: 16px;
+}
+
+.theme-root[data-store-type="food"] .photo-stamp,
+.theme-root[data-store-type="cafe"] .photo-stamp,
+.theme-root[data-store-type="bakery"] .photo-stamp,
+.theme-root[data-store-type="mealprep"] .photo-stamp,
+.theme-root[data-store-type="grocery"] .photo-stamp {
+  border-color: #fff8ef;
+  background: var(--brand-accent, #d87545);
+  color: #fffaf2;
+}
+
+.theme-root[data-store-type="food"] .category-name,
+.theme-root[data-store-type="cafe"] .category-name,
+.theme-root[data-store-type="bakery"] .category-name,
+.theme-root[data-store-type="mealprep"] .category-name,
+.theme-root[data-store-type="grocery"] .category-name {
+  text-shadow: 0 2px 12px rgb(30 19 13 / 36%);
+}
+
+@media (max-width: 640px) {
+  .theme-root[data-store-type="food"] .category-tile,
+  .theme-root[data-store-type="cafe"] .category-tile,
+  .theme-root[data-store-type="bakery"] .category-tile,
+  .theme-root[data-store-type="mealprep"] .category-tile,
+  .theme-root[data-store-type="grocery"] .category-tile {
+    border-radius: 10px;
+  }
+}

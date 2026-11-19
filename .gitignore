@@ -1,0 +1,9 @@
+node_modules
+.next
+.sst
+.open-next
+.DS_Store
+*.log
+.vercel
+.env*
+!.env.example

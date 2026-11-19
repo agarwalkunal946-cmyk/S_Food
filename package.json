@@ -1,0 +1,29 @@
+{
+  "name": "s-food-studio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js",
+    "aws:deploy": "sst deploy",
+    "aws:remove": "sst remove",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "jose": "^6.0.11",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^8.9.5",
+    "motion": "^14.14.0",
+    "next": "^16.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "sst": "^4.17.2"
+  }
+}
